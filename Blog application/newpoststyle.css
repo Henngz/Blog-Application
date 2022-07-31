@@ -1,0 +1,54 @@
+/*******************
+
+    newpoststyle.css
+    Name: Yuheng Zhu
+    Date: 2022-07-29                                      
+    Description: The CSS file is used to set a style to new post page.
+
+********************/
+html, body, h1, form, ol, li {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	padding: 20px;
+	margin: 0px auto;
+}
+
+.header{
+	display: flex;
+}
+
+.logo{
+	width: 70px;
+	height: 70px;
+}
+
+.head{
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+form{
+	padding-top: 40px;
+}
+
+form #content{
+	height:200px ;
+	width: 500px;
+}
+
+ol li{
+	list-style: none;
+	padding-top: 10px;
+}
+
+#submit{
+	padding-top: 50px;
+}
+
+#submitbutton{
+	width: 60px;
+	height: 40px;
+}

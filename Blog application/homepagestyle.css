@@ -1,0 +1,46 @@
+/*******************
+
+    homepagestyle.css
+    Name: Yuheng Zhu
+    Date: 2022-07-29                                      
+    Description: The CSS file is used to set a style to home page.
+
+********************/
+html, body, h1, form, ol, li {
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	padding: 20px;
+	margin: 0px auto;
+}
+
+.header{
+	display: flex;
+}
+
+.logo{
+	width: 70px;
+	height: 70px;
+}
+
+.head{
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.newblog{
+	padding-left: 100px;
+	padding-top: 30px;
+}
+
+.title{
+	display: flex;
+}
+
+.edit{
+	padding-left: 100px;
+	padding-top: 25px;
+}
